@@ -1,0 +1,13 @@
+C:/Users/huber/Desktop/TPPPPP/projekt3/build/CMakeFiles/projekt3.dir
+C:/Users/huber/Desktop/TPPPPP/projekt3/build/CMakeFiles/INSTALL.dir
+C:/Users/huber/Desktop/TPPPPP/projekt3/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/huber/Desktop/TPPPPP/projekt3/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/huber/Desktop/TPPPPP/projekt3/build/pybind11/CMakeFiles/INSTALL.dir
+C:/Users/huber/Desktop/TPPPPP/projekt3/build/pybind11/CMakeFiles/ALL_BUILD.dir
+C:/Users/huber/Desktop/TPPPPP/projekt3/build/matplotplusplus/CMakeFiles/INSTALL.dir
+C:/Users/huber/Desktop/TPPPPP/projekt3/build/matplotplusplus/CMakeFiles/ALL_BUILD.dir
+C:/Users/huber/Desktop/TPPPPP/projekt3/build/matplotplusplus/source/CMakeFiles/INSTALL.dir
+C:/Users/huber/Desktop/TPPPPP/projekt3/build/matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir
+C:/Users/huber/Desktop/TPPPPP/projekt3/build/matplotplusplus/source/3rd_party/CMakeFiles/INSTALL.dir
+C:/Users/huber/Desktop/TPPPPP/projekt3/build/matplotplusplus/source/matplot/CMakeFiles/matplot.dir
+C:/Users/huber/Desktop/TPPPPP/projekt3/build/matplotplusplus/source/matplot/CMakeFiles/INSTALL.dir

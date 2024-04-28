@@ -1,0 +1,15 @@
+{
+  "OutputFoldersPerTargetSystem": {
+    "Maszyna lokalna": [
+      "out\\build\\x64-Debug",
+      "out\\install\\x64-Debug"
+    ]
+  },
+  "ExpandedNodes": [
+    "",
+    "\\build",
+    "\\build\\matplotplusplus"
+  ],
+  "SelectedNode": "\\build\\matplotplusplus\\ALL_BUILD.vcxproj",
+  "PreviewInSolutionExplorer": false
+}
