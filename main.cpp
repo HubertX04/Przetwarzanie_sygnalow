@@ -79,12 +79,43 @@ int prostokat(int a)
     return 0; 
 }
 
+int show_audio()
+{
+    std::vector<double> x;
+    std::vector<double> y;
+
+    audioFile.load ("test-audio.wav");
+    int channel = 0;
+    int numSamples = audioFile.getNumSamplesPerChannel();
+
+    if(numSamples>500)
+    {
+        numSamples=500;
+    }
+    for (int i = 0; i < numSamples; i++)
+    {
+        double currentSample = audioFile.samples[channel][i];
+        x.push_back(i);
+        y.push_back(currentSample);
+    }
+
+    
+
+    matplot::plot(x, y)->line_width(2).color("red");
+    matplot::xlabel("X");
+    matplot::ylabel("Y");
+    matplot::show();
+
+    return numSamples;
+}
+
 PYBIND11_MODULE(projekt3, m) {
 
     m.def("sin", &sin);
     m.def("cos", &cos );
     m.def("pilo", &pilo );
     m.def("prostokat", &prostokat);
+    m.def("show_audio", &show_audio);
 
 #ifdef VERSION_INFO
     m.attr("__version__") = MACRO_STRINGIFY(VERSION_INFO);
