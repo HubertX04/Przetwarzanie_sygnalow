@@ -1,48 +1,48 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\3rd_party\nodesoup\src\algebra.cpp">
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\3rd_party\nodesoup\src\algebra.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\3rd_party\nodesoup\src\fruchterman_reingold.cpp">
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\3rd_party\nodesoup\src\fruchterman_reingold.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\3rd_party\nodesoup\src\kamada_kawai.cpp">
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\3rd_party\nodesoup\src\kamada_kawai.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\3rd_party\nodesoup\src\layout.cpp">
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\3rd_party\nodesoup\src\layout.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\3rd_party\nodesoup\src\nodesoup.cpp">
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\3rd_party\nodesoup\src\nodesoup.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\3rd_party\nodesoup\src\algebra.hpp">
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\3rd_party\nodesoup\src\algebra.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\3rd_party\nodesoup\src\fruchterman_reingold.hpp">
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\3rd_party\nodesoup\src\fruchterman_reingold.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\3rd_party\nodesoup\src\kamada_kawai.hpp">
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\3rd_party\nodesoup\src\kamada_kawai.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\3rd_party\nodesoup\src\layout.hpp">
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\3rd_party\nodesoup\src\layout.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\3rd_party\nodesoup\include\nodesoup.hpp">
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\3rd_party\nodesoup\include\nodesoup.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\3rd_party\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\3rd_party\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{F9C7CE4B-8B05-3C76-AD1B-A8519C8B121B}</UniqueIdentifier>
+      <UniqueIdentifier>{2C222F50-3EF0-3EB9-AA97-0BBEE4921FE4}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{5F7B5821-D154-392B-B6CF-7EA6503A2AD3}</UniqueIdentifier>
+      <UniqueIdentifier>{F22B3083-DDC4-3734-A48E-0851549BB81D}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

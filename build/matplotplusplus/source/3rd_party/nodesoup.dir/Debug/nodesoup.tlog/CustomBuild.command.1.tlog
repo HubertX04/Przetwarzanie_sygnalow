@@ -1,6 +1,6 @@
-^C:\USERS\HUBER\DESKTOP\TPPPPP\PROJEKT3\MATPLOTPLUSPLUS\SOURCE\3RD_PARTY\CMAKELISTS.TXT
+^C:\USERS\HUBER\DESKTOP\PROJEKT3\MATPLOTPLUSPLUS\SOURCE\3RD_PARTY\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/huber/Desktop/TPPPPP/projekt3 -BC:/Users/huber/Desktop/TPPPPP/projekt3/build --check-stamp-file C:/Users/huber/Desktop/TPPPPP/projekt3/build/matplotplusplus/source/3rd_party/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/huber/Desktop/projekt3 -BC:/Users/huber/Desktop/projekt3/build --check-stamp-file C:/Users/huber/Desktop/projekt3/build/matplotplusplus/source/3rd_party/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

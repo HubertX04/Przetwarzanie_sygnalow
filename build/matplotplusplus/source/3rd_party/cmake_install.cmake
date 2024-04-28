@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/huber/Desktop/TPPPPP/projekt3/matplotplusplus/source/3rd_party
+# Install script for directory: C:/Users/huber/Desktop/projekt3/matplotplusplus/source/3rd_party
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

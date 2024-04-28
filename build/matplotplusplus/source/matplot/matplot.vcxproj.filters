@@ -1,252 +1,252 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\backend\backend_interface.cpp">
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\backend\backend_interface.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\backend\gnuplot.cpp">
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\backend\gnuplot.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\backend\backend_registry.cpp">
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\backend\backend_registry.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\core\axes_type.cpp">
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\core\axes_type.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\core\axes_object.cpp">
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\core\axes_object.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\core\axis_type.cpp">
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\core\axis_type.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\core\figure_type.cpp">
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\core\figure_type.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\core\figure_registry.cpp">
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\core\figure_registry.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\core\legend.cpp">
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\core\legend.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\core\line_spec.cpp">
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\core\line_spec.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\util\colors.cpp">
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\util\colors.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\util\common.cpp">
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\util\common.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\util\contourc.cpp">
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\util\contourc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\util\popen.cpp">
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\util\popen.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\util\world_cities.cpp">
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\util\world_cities.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\util\world_map_10m.cpp">
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\util\world_map_10m.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\util\world_map_50m.cpp">
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\util\world_map_50m.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\util\world_map_110m.cpp">
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\util\world_map_110m.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\bars.cpp">
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\bars.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\box_chart.cpp">
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\box_chart.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\circles.cpp">
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\circles.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\contours.cpp">
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\contours.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\error_bar.cpp">
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\error_bar.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\filled_area.cpp">
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\filled_area.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\function_line.cpp">
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\function_line.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\histogram.cpp">
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\histogram.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\labels.cpp">
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\labels.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\line.cpp">
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\line.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\matrix.cpp">
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\matrix.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\network.cpp">
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\network.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\parallel_lines.cpp">
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\parallel_lines.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\stair.cpp">
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\stair.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\string_function.cpp">
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\string_function.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\surface.cpp">
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\surface.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\vectors.cpp">
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\vectors.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\freestanding\axes_functions.cpp">
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\freestanding\axes_functions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\freestanding\histcounts.cpp">
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\freestanding\histcounts.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\matplot.h">
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\matplot.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\backend\backend_interface.h">
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\backend\backend_interface.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\backend\gnuplot.h">
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\backend\gnuplot.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\backend\backend_registry.h">
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\backend\backend_registry.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\core\axes_type.h">
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\core\axes_type.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\core\axes_object.h">
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\core\axes_object.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\core\axis_type.h">
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\core\axis_type.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\core\figure_type.h">
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\core\figure_type.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\core\figure_registry.h">
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\core\figure_registry.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\core\legend.h">
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\core\legend.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\core\line_spec.h">
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\core\line_spec.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\util\colors.h">
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\util\colors.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\util\common.h">
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\util\common.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\util\concepts.h">
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\util\concepts.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\util\contourc.h">
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\util\contourc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\util\geodata.h">
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\util\geodata.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\util\handle_types.h">
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\util\handle_types.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\util\keywords.h">
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\util\keywords.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\util\popen.h">
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\util\popen.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\util\type_traits.h">
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\util\type_traits.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\bars.h">
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\bars.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\box_chart.h">
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\box_chart.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\circles.h">
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\circles.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\contours.h">
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\contours.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\error_bar.h">
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\error_bar.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\filled_area.h">
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\filled_area.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\function_line.h">
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\function_line.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\histogram.h">
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\histogram.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\labels.h">
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\labels.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\line.h">
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\line.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\matrix.h">
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\matrix.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\network.h">
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\network.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\parallel_lines.h">
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\parallel_lines.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\stair.h">
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\stair.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\string_function.h">
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\string_function.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\surface.h">
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\surface.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\vectors.h">
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\vectors.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\freestanding\axes_functions.h">
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\freestanding\axes_functions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\freestanding\axes_lim.h">
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\freestanding\axes_lim.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\freestanding\histcounts.h">
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\freestanding\histcounts.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\freestanding\plot.h">
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\freestanding\plot.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{F9C7CE4B-8B05-3C76-AD1B-A8519C8B121B}</UniqueIdentifier>
+      <UniqueIdentifier>{2C222F50-3EF0-3EB9-AA97-0BBEE4921FE4}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{5F7B5821-D154-392B-B6CF-7EA6503A2AD3}</UniqueIdentifier>
+      <UniqueIdentifier>{F22B3083-DDC4-3734-A48E-0851549BB81D}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

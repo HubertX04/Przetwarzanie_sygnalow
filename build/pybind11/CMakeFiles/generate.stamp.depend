@@ -13,8 +13,8 @@ C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckCompilerFlag.cmake
 C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckFlagCommonConfig.cmake
 C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake
 C:/Program Files/CMake/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake
-C:/Users/huber/Desktop/TPPPPP/projekt3/pybind11/CMakeLists.txt
-C:/Users/huber/Desktop/TPPPPP/projekt3/pybind11/tools/FindPythonLibsNew.cmake
-C:/Users/huber/Desktop/TPPPPP/projekt3/pybind11/tools/JoinPaths.cmake
-C:/Users/huber/Desktop/TPPPPP/projekt3/pybind11/tools/pybind11Common.cmake
-C:/Users/huber/Desktop/TPPPPP/projekt3/pybind11/tools/pybind11Tools.cmake
+C:/Users/huber/Desktop/projekt3/pybind11/CMakeLists.txt
+C:/Users/huber/Desktop/projekt3/pybind11/tools/FindPythonLibsNew.cmake
+C:/Users/huber/Desktop/projekt3/pybind11/tools/JoinPaths.cmake
+C:/Users/huber/Desktop/projekt3/pybind11/tools/pybind11Common.cmake
+C:/Users/huber/Desktop/projekt3/pybind11/tools/pybind11Tools.cmake

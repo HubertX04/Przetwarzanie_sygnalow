@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{85998193-6130-3A38-8510-B4E70589E0EB}</ProjectGuid>
+    <ProjectGuid>{A43100E2-82A3-3C52-84D0-0A449072CF5C}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,27 +59,27 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\huber\Desktop\TPPPPP\projekt3\build\matplotplusplus\source\matplot\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\huber\Desktop\projekt3\build\matplotplusplus\source\matplot\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">matplot.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">matplot</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\huber\Desktop\TPPPPP\projekt3\build\matplotplusplus\source\matplot\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\huber\Desktop\projekt3\build\matplotplusplus\source\matplot\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">matplot.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">matplot</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\huber\Desktop\TPPPPP\projekt3\build\matplotplusplus\source\matplot\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\huber\Desktop\projekt3\build\matplotplusplus\source\matplot\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">matplot.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">matplot</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\huber\Desktop\TPPPPP\projekt3\build\matplotplusplus\source\matplot\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\huber\Desktop\projekt3\build\matplotplusplus\source\matplot\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">matplot.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">matplot</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source;C:\Users\huber\Desktop\TPPPPP\projekt3\build\matplotplusplus\source\matplot;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/huber/Desktop/TPPPPP/projekt3/matplotplusplus/source/3rd_party/cimg" /external:I "C:/Users/huber/Desktop/TPPPPP/projekt3/matplotplusplus/source/3rd_party/nodesoup/include"</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\huber\Desktop\projekt3\matplotplusplus\source;C:\Users\huber\Desktop\projekt3\build\matplotplusplus\source\matplot;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/huber/Desktop/projekt3/matplotplusplus/source/3rd_party/cimg" /external:I "C:/Users/huber/Desktop/projekt3/matplotplusplus/source/3rd_party/nodesoup/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -99,10 +99,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;NOMINMAX;MATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP;cimg_display=2;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source;C:\Users\huber\Desktop\TPPPPP\projekt3\build\matplotplusplus\source\matplot;C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\3rd_party\cimg;C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\huber\Desktop\projekt3\matplotplusplus\source;C:\Users\huber\Desktop\projekt3\build\matplotplusplus\source\matplot;C:\Users\huber\Desktop\projekt3\matplotplusplus\source\3rd_party\cimg;C:\Users\huber\Desktop\projekt3\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source;C:\Users\huber\Desktop\TPPPPP\projekt3\build\matplotplusplus\source\matplot;C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\3rd_party\cimg;C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\huber\Desktop\projekt3\matplotplusplus\source;C:\Users\huber\Desktop\projekt3\build\matplotplusplus\source\matplot;C:\Users\huber\Desktop\projekt3\matplotplusplus\source\3rd_party\cimg;C:\Users\huber\Desktop\projekt3\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -115,8 +115,8 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source;C:\Users\huber\Desktop\TPPPPP\projekt3\build\matplotplusplus\source\matplot;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/huber/Desktop/TPPPPP/projekt3/matplotplusplus/source/3rd_party/cimg" /external:I "C:/Users/huber/Desktop/TPPPPP/projekt3/matplotplusplus/source/3rd_party/nodesoup/include"</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\huber\Desktop\projekt3\matplotplusplus\source;C:\Users\huber\Desktop\projekt3\build\matplotplusplus\source\matplot;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/huber/Desktop/projekt3/matplotplusplus/source/3rd_party/cimg" /external:I "C:/Users/huber/Desktop/projekt3/matplotplusplus/source/3rd_party/nodesoup/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
@@ -136,10 +136,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;MATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP;cimg_display=2;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source;C:\Users\huber\Desktop\TPPPPP\projekt3\build\matplotplusplus\source\matplot;C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\3rd_party\cimg;C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\huber\Desktop\projekt3\matplotplusplus\source;C:\Users\huber\Desktop\projekt3\build\matplotplusplus\source\matplot;C:\Users\huber\Desktop\projekt3\matplotplusplus\source\3rd_party\cimg;C:\Users\huber\Desktop\projekt3\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source;C:\Users\huber\Desktop\TPPPPP\projekt3\build\matplotplusplus\source\matplot;C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\3rd_party\cimg;C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\huber\Desktop\projekt3\matplotplusplus\source;C:\Users\huber\Desktop\projekt3\build\matplotplusplus\source\matplot;C:\Users\huber\Desktop\projekt3\matplotplusplus\source\3rd_party\cimg;C:\Users\huber\Desktop\projekt3\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -152,8 +152,8 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source;C:\Users\huber\Desktop\TPPPPP\projekt3\build\matplotplusplus\source\matplot;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/huber/Desktop/TPPPPP/projekt3/matplotplusplus/source/3rd_party/cimg" /external:I "C:/Users/huber/Desktop/TPPPPP/projekt3/matplotplusplus/source/3rd_party/nodesoup/include"</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\huber\Desktop\projekt3\matplotplusplus\source;C:\Users\huber\Desktop\projekt3\build\matplotplusplus\source\matplot;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/huber/Desktop/projekt3/matplotplusplus/source/3rd_party/cimg" /external:I "C:/Users/huber/Desktop/projekt3/matplotplusplus/source/3rd_party/nodesoup/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
@@ -173,10 +173,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;MATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP;cimg_display=2;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source;C:\Users\huber\Desktop\TPPPPP\projekt3\build\matplotplusplus\source\matplot;C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\3rd_party\cimg;C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\huber\Desktop\projekt3\matplotplusplus\source;C:\Users\huber\Desktop\projekt3\build\matplotplusplus\source\matplot;C:\Users\huber\Desktop\projekt3\matplotplusplus\source\3rd_party\cimg;C:\Users\huber\Desktop\projekt3\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source;C:\Users\huber\Desktop\TPPPPP\projekt3\build\matplotplusplus\source\matplot;C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\3rd_party\cimg;C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\huber\Desktop\projekt3\matplotplusplus\source;C:\Users\huber\Desktop\projekt3\build\matplotplusplus\source\matplot;C:\Users\huber\Desktop\projekt3\matplotplusplus\source\3rd_party\cimg;C:\Users\huber\Desktop\projekt3\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -189,8 +189,8 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source;C:\Users\huber\Desktop\TPPPPP\projekt3\build\matplotplusplus\source\matplot;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/huber/Desktop/TPPPPP/projekt3/matplotplusplus/source/3rd_party/cimg" /external:I "C:/Users/huber/Desktop/TPPPPP/projekt3/matplotplusplus/source/3rd_party/nodesoup/include"</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\huber\Desktop\projekt3\matplotplusplus\source;C:\Users\huber\Desktop\projekt3\build\matplotplusplus\source\matplot;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/huber/Desktop/projekt3/matplotplusplus/source/3rd_party/cimg" /external:I "C:/Users/huber/Desktop/projekt3/matplotplusplus/source/3rd_party/nodesoup/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -209,10 +209,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;MATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP;cimg_display=2;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source;C:\Users\huber\Desktop\TPPPPP\projekt3\build\matplotplusplus\source\matplot;C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\3rd_party\cimg;C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\huber\Desktop\projekt3\matplotplusplus\source;C:\Users\huber\Desktop\projekt3\build\matplotplusplus\source\matplot;C:\Users\huber\Desktop\projekt3\matplotplusplus\source\3rd_party\cimg;C:\Users\huber\Desktop\projekt3\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source;C:\Users\huber\Desktop\TPPPPP\projekt3\build\matplotplusplus\source\matplot;C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\3rd_party\cimg;C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\huber\Desktop\projekt3\matplotplusplus\source;C:\Users\huber\Desktop\projekt3\build\matplotplusplus\source\matplot;C:\Users\huber\Desktop\projekt3\matplotplusplus\source\3rd_party\cimg;C:\Users\huber\Desktop\projekt3\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -224,11 +224,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/huber/Desktop/TPPPPP/projekt3/matplotplusplus/source/matplot/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/huber/Desktop/projekt3/matplotplusplus/source/matplot/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/huber/Desktop/TPPPPP/projekt3 -BC:/Users/huber/Desktop/TPPPPP/projekt3/build --check-stamp-file C:/Users/huber/Desktop/TPPPPP/projekt3/build/matplotplusplus/source/matplot/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/huber/Desktop/projekt3 -BC:/Users/huber/Desktop/projekt3/build --check-stamp-file C:/Users/huber/Desktop/projekt3/build/matplotplusplus/source/matplot/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -237,11 +237,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\GenerateExportHeader.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\huber\Desktop\TPPPPP\projekt3\build\matplotplusplus\source\matplot\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\huber\Desktop\projekt3\build\matplotplusplus\source\matplot\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/huber/Desktop/TPPPPP/projekt3/matplotplusplus/source/matplot/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/huber/Desktop/projekt3/matplotplusplus/source/matplot/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/huber/Desktop/TPPPPP/projekt3 -BC:/Users/huber/Desktop/TPPPPP/projekt3/build --check-stamp-file C:/Users/huber/Desktop/TPPPPP/projekt3/build/matplotplusplus/source/matplot/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/huber/Desktop/projekt3 -BC:/Users/huber/Desktop/projekt3/build --check-stamp-file C:/Users/huber/Desktop/projekt3/build/matplotplusplus/source/matplot/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -250,11 +250,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\GenerateExportHeader.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\huber\Desktop\TPPPPP\projekt3\build\matplotplusplus\source\matplot\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\huber\Desktop\projekt3\build\matplotplusplus\source\matplot\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/huber/Desktop/TPPPPP/projekt3/matplotplusplus/source/matplot/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/huber/Desktop/projekt3/matplotplusplus/source/matplot/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/huber/Desktop/TPPPPP/projekt3 -BC:/Users/huber/Desktop/TPPPPP/projekt3/build --check-stamp-file C:/Users/huber/Desktop/TPPPPP/projekt3/build/matplotplusplus/source/matplot/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/huber/Desktop/projekt3 -BC:/Users/huber/Desktop/projekt3/build --check-stamp-file C:/Users/huber/Desktop/projekt3/build/matplotplusplus/source/matplot/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -263,11 +263,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\GenerateExportHeader.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\huber\Desktop\TPPPPP\projekt3\build\matplotplusplus\source\matplot\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\huber\Desktop\projekt3\build\matplotplusplus\source\matplot\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/huber/Desktop/TPPPPP/projekt3/matplotplusplus/source/matplot/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/huber/Desktop/projekt3/matplotplusplus/source/matplot/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/huber/Desktop/TPPPPP/projekt3 -BC:/Users/huber/Desktop/TPPPPP/projekt3/build --check-stamp-file C:/Users/huber/Desktop/TPPPPP/projekt3/build/matplotplusplus/source/matplot/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/huber/Desktop/projekt3 -BC:/Users/huber/Desktop/projekt3/build --check-stamp-file C:/Users/huber/Desktop/projekt3/build/matplotplusplus/source/matplot/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -276,99 +276,99 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\GenerateExportHeader.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\huber\Desktop\TPPPPP\projekt3\build\matplotplusplus\source\matplot\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\huber\Desktop\projekt3\build\matplotplusplus\source\matplot\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\matplot.h" />
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\backend\backend_interface.h" />
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\backend\backend_interface.cpp" />
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\backend\gnuplot.h" />
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\backend\gnuplot.cpp" />
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\backend\backend_registry.h" />
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\backend\backend_registry.cpp" />
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\core\axes_type.cpp" />
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\core\axes_type.h" />
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\core\axes_object.cpp" />
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\core\axes_object.h" />
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\core\axis_type.cpp" />
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\core\axis_type.h" />
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\core\figure_type.cpp" />
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\core\figure_type.h" />
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\core\figure_registry.cpp" />
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\core\figure_registry.h" />
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\core\legend.cpp" />
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\core\legend.h" />
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\core\line_spec.cpp" />
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\core\line_spec.h" />
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\util\colors.cpp" />
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\util\colors.h" />
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\util\common.cpp" />
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\util\common.h" />
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\util\concepts.h" />
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\util\contourc.cpp" />
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\util\contourc.h" />
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\util\geodata.h" />
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\util\handle_types.h" />
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\util\keywords.h" />
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\util\popen.h" />
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\util\popen.cpp" />
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\util\type_traits.h" />
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\util\world_cities.cpp" />
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\util\world_map_10m.cpp" />
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\util\world_map_50m.cpp" />
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\util\world_map_110m.cpp" />
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\bars.cpp" />
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\bars.h" />
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\box_chart.cpp" />
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\box_chart.h" />
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\circles.cpp" />
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\circles.h" />
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\contours.cpp" />
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\contours.h" />
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\error_bar.cpp" />
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\error_bar.h" />
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\filled_area.cpp" />
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\filled_area.h" />
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\function_line.cpp" />
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\function_line.h" />
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\histogram.cpp" />
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\histogram.h" />
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\labels.cpp" />
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\labels.h" />
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\line.cpp" />
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\line.h" />
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\matrix.cpp" />
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\matrix.h" />
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\network.cpp" />
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\network.h" />
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\parallel_lines.cpp" />
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\parallel_lines.h" />
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\stair.cpp" />
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\stair.h" />
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\string_function.cpp" />
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\string_function.h" />
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\surface.cpp" />
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\surface.h" />
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\vectors.cpp" />
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\axes_objects\vectors.h" />
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\freestanding\axes_functions.cpp" />
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\freestanding\axes_functions.h" />
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\freestanding\axes_lim.h" />
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\freestanding\histcounts.h" />
-    <ClCompile Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\freestanding\histcounts.cpp" />
-    <ClInclude Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\source\matplot\freestanding\plot.h" />
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\matplot.h" />
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\backend\backend_interface.h" />
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\backend\backend_interface.cpp" />
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\backend\gnuplot.h" />
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\backend\gnuplot.cpp" />
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\backend\backend_registry.h" />
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\backend\backend_registry.cpp" />
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\core\axes_type.cpp" />
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\core\axes_type.h" />
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\core\axes_object.cpp" />
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\core\axes_object.h" />
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\core\axis_type.cpp" />
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\core\axis_type.h" />
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\core\figure_type.cpp" />
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\core\figure_type.h" />
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\core\figure_registry.cpp" />
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\core\figure_registry.h" />
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\core\legend.cpp" />
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\core\legend.h" />
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\core\line_spec.cpp" />
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\core\line_spec.h" />
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\util\colors.cpp" />
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\util\colors.h" />
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\util\common.cpp" />
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\util\common.h" />
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\util\concepts.h" />
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\util\contourc.cpp" />
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\util\contourc.h" />
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\util\geodata.h" />
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\util\handle_types.h" />
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\util\keywords.h" />
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\util\popen.h" />
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\util\popen.cpp" />
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\util\type_traits.h" />
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\util\world_cities.cpp" />
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\util\world_map_10m.cpp" />
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\util\world_map_50m.cpp" />
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\util\world_map_110m.cpp" />
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\bars.cpp" />
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\bars.h" />
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\box_chart.cpp" />
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\box_chart.h" />
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\circles.cpp" />
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\circles.h" />
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\contours.cpp" />
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\contours.h" />
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\error_bar.cpp" />
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\error_bar.h" />
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\filled_area.cpp" />
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\filled_area.h" />
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\function_line.cpp" />
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\function_line.h" />
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\histogram.cpp" />
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\histogram.h" />
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\labels.cpp" />
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\labels.h" />
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\line.cpp" />
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\line.h" />
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\matrix.cpp" />
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\matrix.h" />
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\network.cpp" />
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\network.h" />
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\parallel_lines.cpp" />
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\parallel_lines.h" />
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\stair.cpp" />
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\stair.h" />
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\string_function.cpp" />
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\string_function.h" />
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\surface.cpp" />
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\surface.h" />
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\vectors.cpp" />
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\axes_objects\vectors.h" />
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\freestanding\axes_functions.cpp" />
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\freestanding\axes_functions.h" />
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\freestanding\axes_lim.h" />
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\freestanding\histcounts.h" />
+    <ClCompile Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\freestanding\histcounts.cpp" />
+    <ClInclude Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\source\matplot\freestanding\plot.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\huber\Desktop\TPPPPP\projekt3\build\ZERO_CHECK.vcxproj">
-      <Project>{312F5509-A888-329F-AC4A-2667377C394D}</Project>
+    <ProjectReference Include="C:\Users\huber\Desktop\projekt3\build\ZERO_CHECK.vcxproj">
+      <Project>{AD8D4C22-86DF-3722-8395-2F39FDD904EA}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\huber\Desktop\TPPPPP\projekt3\build\matplotplusplus\source\3rd_party\nodesoup.vcxproj">
-      <Project>{0CB32753-23D8-3E4B-8D4C-605434CD65AE}</Project>
+    <ProjectReference Include="C:\Users\huber\Desktop\projekt3\build\matplotplusplus\source\3rd_party\nodesoup.vcxproj">
+      <Project>{0C2B60A6-3753-3C2E-A5BD-162C835E0774}</Project>
       <Name>nodesoup</Name>
     </ProjectReference>
   </ItemGroup>

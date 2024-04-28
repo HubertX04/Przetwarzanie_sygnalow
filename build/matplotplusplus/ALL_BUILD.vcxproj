@@ -25,7 +25,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{C14DDE56-3E45-3DA4-9E13-BAD14B14AF30}</ProjectGuid>
+    <ProjectGuid>{A65C9C77-F5D1-3D45-B8B5-7AC7BEC6755F}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -108,11 +108,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\huber\Desktop\projekt3\matplotplusplus\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/huber/Desktop/TPPPPP/projekt3/matplotplusplus/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/huber/Desktop/projekt3/matplotplusplus/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/huber/Desktop/TPPPPP/projekt3 -BC:/Users/huber/Desktop/TPPPPP/projekt3/build --check-stamp-file C:/Users/huber/Desktop/TPPPPP/projekt3/build/matplotplusplus/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/huber/Desktop/projekt3 -BC:/Users/huber/Desktop/projekt3/build --check-stamp-file C:/Users/huber/Desktop/projekt3/build/matplotplusplus/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -120,12 +120,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\cmake\functions.cmake;C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\cmake\functions\ensure_build_type.cmake;C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\cmake\functions\link_external_libraries.cmake;C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\cmake\functions\project_flags.cmake;C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\cmake\functions\sanitizers.cmake;C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\cmake\functions\target_options.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\huber\Desktop\TPPPPP\projekt3\build\matplotplusplus\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\huber\Desktop\projekt3\matplotplusplus\cmake\functions.cmake;C:\Users\huber\Desktop\projekt3\matplotplusplus\cmake\functions\ensure_build_type.cmake;C:\Users\huber\Desktop\projekt3\matplotplusplus\cmake\functions\link_external_libraries.cmake;C:\Users\huber\Desktop\projekt3\matplotplusplus\cmake\functions\project_flags.cmake;C:\Users\huber\Desktop\projekt3\matplotplusplus\cmake\functions\sanitizers.cmake;C:\Users\huber\Desktop\projekt3\matplotplusplus\cmake\functions\target_options.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\huber\Desktop\projekt3\build\matplotplusplus\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/huber/Desktop/TPPPPP/projekt3/matplotplusplus/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/huber/Desktop/projekt3/matplotplusplus/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/huber/Desktop/TPPPPP/projekt3 -BC:/Users/huber/Desktop/TPPPPP/projekt3/build --check-stamp-file C:/Users/huber/Desktop/TPPPPP/projekt3/build/matplotplusplus/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/huber/Desktop/projekt3 -BC:/Users/huber/Desktop/projekt3/build --check-stamp-file C:/Users/huber/Desktop/projekt3/build/matplotplusplus/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -133,12 +133,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\cmake\functions.cmake;C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\cmake\functions\ensure_build_type.cmake;C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\cmake\functions\link_external_libraries.cmake;C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\cmake\functions\project_flags.cmake;C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\cmake\functions\sanitizers.cmake;C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\cmake\functions\target_options.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\huber\Desktop\TPPPPP\projekt3\build\matplotplusplus\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\huber\Desktop\projekt3\matplotplusplus\cmake\functions.cmake;C:\Users\huber\Desktop\projekt3\matplotplusplus\cmake\functions\ensure_build_type.cmake;C:\Users\huber\Desktop\projekt3\matplotplusplus\cmake\functions\link_external_libraries.cmake;C:\Users\huber\Desktop\projekt3\matplotplusplus\cmake\functions\project_flags.cmake;C:\Users\huber\Desktop\projekt3\matplotplusplus\cmake\functions\sanitizers.cmake;C:\Users\huber\Desktop\projekt3\matplotplusplus\cmake\functions\target_options.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\huber\Desktop\projekt3\build\matplotplusplus\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/huber/Desktop/TPPPPP/projekt3/matplotplusplus/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/huber/Desktop/projekt3/matplotplusplus/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/huber/Desktop/TPPPPP/projekt3 -BC:/Users/huber/Desktop/TPPPPP/projekt3/build --check-stamp-file C:/Users/huber/Desktop/TPPPPP/projekt3/build/matplotplusplus/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/huber/Desktop/projekt3 -BC:/Users/huber/Desktop/projekt3/build --check-stamp-file C:/Users/huber/Desktop/projekt3/build/matplotplusplus/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -146,12 +146,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\cmake\functions.cmake;C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\cmake\functions\ensure_build_type.cmake;C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\cmake\functions\link_external_libraries.cmake;C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\cmake\functions\project_flags.cmake;C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\cmake\functions\sanitizers.cmake;C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\cmake\functions\target_options.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\huber\Desktop\TPPPPP\projekt3\build\matplotplusplus\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\huber\Desktop\projekt3\matplotplusplus\cmake\functions.cmake;C:\Users\huber\Desktop\projekt3\matplotplusplus\cmake\functions\ensure_build_type.cmake;C:\Users\huber\Desktop\projekt3\matplotplusplus\cmake\functions\link_external_libraries.cmake;C:\Users\huber\Desktop\projekt3\matplotplusplus\cmake\functions\project_flags.cmake;C:\Users\huber\Desktop\projekt3\matplotplusplus\cmake\functions\sanitizers.cmake;C:\Users\huber\Desktop\projekt3\matplotplusplus\cmake\functions\target_options.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\huber\Desktop\projekt3\build\matplotplusplus\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/huber/Desktop/TPPPPP/projekt3/matplotplusplus/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/huber/Desktop/projekt3/matplotplusplus/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/huber/Desktop/TPPPPP/projekt3 -BC:/Users/huber/Desktop/TPPPPP/projekt3/build --check-stamp-file C:/Users/huber/Desktop/TPPPPP/projekt3/build/matplotplusplus/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/huber/Desktop/projekt3 -BC:/Users/huber/Desktop/projekt3/build --check-stamp-file C:/Users/huber/Desktop/projekt3/build/matplotplusplus/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -159,26 +159,26 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\cmake\functions.cmake;C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\cmake\functions\ensure_build_type.cmake;C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\cmake\functions\link_external_libraries.cmake;C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\cmake\functions\project_flags.cmake;C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\cmake\functions\sanitizers.cmake;C:\Users\huber\Desktop\TPPPPP\projekt3\matplotplusplus\cmake\functions\target_options.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\huber\Desktop\TPPPPP\projekt3\build\matplotplusplus\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\huber\Desktop\projekt3\matplotplusplus\cmake\functions.cmake;C:\Users\huber\Desktop\projekt3\matplotplusplus\cmake\functions\ensure_build_type.cmake;C:\Users\huber\Desktop\projekt3\matplotplusplus\cmake\functions\link_external_libraries.cmake;C:\Users\huber\Desktop\projekt3\matplotplusplus\cmake\functions\project_flags.cmake;C:\Users\huber\Desktop\projekt3\matplotplusplus\cmake\functions\sanitizers.cmake;C:\Users\huber\Desktop\projekt3\matplotplusplus\cmake\functions\target_options.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\huber\Desktop\projekt3\build\matplotplusplus\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\huber\Desktop\TPPPPP\projekt3\build\ZERO_CHECK.vcxproj">
-      <Project>{312F5509-A888-329F-AC4A-2667377C394D}</Project>
+    <ProjectReference Include="C:\Users\huber\Desktop\projekt3\build\ZERO_CHECK.vcxproj">
+      <Project>{AD8D4C22-86DF-3722-8395-2F39FDD904EA}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\huber\Desktop\TPPPPP\projekt3\build\matplotplusplus\source\matplot\matplot.vcxproj">
-      <Project>{85998193-6130-3A38-8510-B4E70589E0EB}</Project>
+    <ProjectReference Include="C:\Users\huber\Desktop\projekt3\build\matplotplusplus\source\matplot\matplot.vcxproj">
+      <Project>{A43100E2-82A3-3C52-84D0-0A449072CF5C}</Project>
       <Name>matplot</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\huber\Desktop\TPPPPP\projekt3\build\matplotplusplus\source\3rd_party\nodesoup.vcxproj">
-      <Project>{0CB32753-23D8-3E4B-8D4C-605434CD65AE}</Project>
+    <ProjectReference Include="C:\Users\huber\Desktop\projekt3\build\matplotplusplus\source\3rd_party\nodesoup.vcxproj">
+      <Project>{0C2B60A6-3753-3C2E-A5BD-162C835E0774}</Project>
       <Name>nodesoup</Name>
     </ProjectReference>
   </ItemGroup>

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/huber/Desktop/TPPPPP/projekt3/pybind11
+# Install script for directory: C:/Users/huber/Desktop/projekt3/pybind11
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

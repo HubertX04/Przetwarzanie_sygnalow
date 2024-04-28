@@ -4,10 +4,10 @@ C:/Program Files/CMake/share/cmake-3.29/Modules/ExternalProject/shared_internal_
 C:/Program Files/CMake/share/cmake-3.29/Modules/FetchContent.cmake
 C:/Program Files/CMake/share/cmake-3.29/Modules/GNUInstallDirs.cmake
 C:/Program Files/CMake/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake
-C:/Users/huber/Desktop/TPPPPP/projekt3/matplotplusplus/CMakeLists.txt
-C:/Users/huber/Desktop/TPPPPP/projekt3/matplotplusplus/cmake/functions.cmake
-C:/Users/huber/Desktop/TPPPPP/projekt3/matplotplusplus/cmake/functions/ensure_build_type.cmake
-C:/Users/huber/Desktop/TPPPPP/projekt3/matplotplusplus/cmake/functions/link_external_libraries.cmake
-C:/Users/huber/Desktop/TPPPPP/projekt3/matplotplusplus/cmake/functions/project_flags.cmake
-C:/Users/huber/Desktop/TPPPPP/projekt3/matplotplusplus/cmake/functions/sanitizers.cmake
-C:/Users/huber/Desktop/TPPPPP/projekt3/matplotplusplus/cmake/functions/target_options.cmake
+C:/Users/huber/Desktop/projekt3/matplotplusplus/CMakeLists.txt
+C:/Users/huber/Desktop/projekt3/matplotplusplus/cmake/functions.cmake
+C:/Users/huber/Desktop/projekt3/matplotplusplus/cmake/functions/ensure_build_type.cmake
+C:/Users/huber/Desktop/projekt3/matplotplusplus/cmake/functions/link_external_libraries.cmake
+C:/Users/huber/Desktop/projekt3/matplotplusplus/cmake/functions/project_flags.cmake
+C:/Users/huber/Desktop/projekt3/matplotplusplus/cmake/functions/sanitizers.cmake
+C:/Users/huber/Desktop/projekt3/matplotplusplus/cmake/functions/target_options.cmake

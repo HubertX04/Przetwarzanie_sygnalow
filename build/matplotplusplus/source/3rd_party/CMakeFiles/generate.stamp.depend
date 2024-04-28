@@ -14,6 +14,6 @@ C:/Program Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake
 C:/Program Files/CMake/share/cmake-3.29/Modules/FindZLIB.cmake
 C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake
 C:/Program Files/CMake/share/cmake-3.29/Modules/SelectLibraryConfigurations.cmake
-C:/Users/huber/Desktop/TPPPPP/projekt3/matplotplusplus/cmake/FindFFTW.cmake
-C:/Users/huber/Desktop/TPPPPP/projekt3/matplotplusplus/cmake/FindOpenCV.cmake
-C:/Users/huber/Desktop/TPPPPP/projekt3/matplotplusplus/source/3rd_party/CMakeLists.txt
+C:/Users/huber/Desktop/projekt3/matplotplusplus/cmake/FindFFTW.cmake
+C:/Users/huber/Desktop/projekt3/matplotplusplus/cmake/FindOpenCV.cmake
+C:/Users/huber/Desktop/projekt3/matplotplusplus/source/3rd_party/CMakeLists.txt

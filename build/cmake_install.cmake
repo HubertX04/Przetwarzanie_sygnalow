@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/huber/Desktop/TPPPPP/projekt3
+# Install script for directory: C:/Users/huber/Desktop/projekt3
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,8 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/huber/Desktop/TPPPPP/projekt3/build/pybind11/cmake_install.cmake")
-  include("C:/Users/huber/Desktop/TPPPPP/projekt3/build/matplotplusplus/cmake_install.cmake")
+  include("C:/Users/huber/Desktop/projekt3/build/pybind11/cmake_install.cmake")
+  include("C:/Users/huber/Desktop/projekt3/build/matplotplusplus/cmake_install.cmake")
 
 endif()
 
@@ -47,5 +47,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/huber/Desktop/TPPPPP/projekt3/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/huber/Desktop/projekt3/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
