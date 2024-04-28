@@ -1,0 +1,30 @@
+*******************************************************
+Projekt 3 - Hubert Kowalski, Igor Kowalczyk
+*******************************************************
+
+Potrzebne Programy:
+- GnuPlot - dla biblioteki matplotplusplus i uruchamiania bibliotek
+- CMake - do kompilacji projektu
+- Python 3.12 - obsługa Pythona
+
+
+*************** KOMPILACJA ***************
+W folderze build:
+-> cmake ..
+-> cmake --build .
+
+*************** URUCHAMIANIE ***************
+W folderze build/Debug:
+-> Python
+-> import projekt3
+-> projekt3."komenda z KOMENDY"
+
+*************** KOMENDY ***************
+-> sin(), cos(), pilo(), prostokat() - w środku nawiasu podajemy częstotliwość np. 5
+{
+    sin() -> wykres sinusa
+    cos() -> wykres cosinusa
+    pilo() -> wykres piłokształtny
+    prostokat() -> wykres przebiegu prostokątnego
+}
+-> show_audio() - pokazuje przebieg sygnału pliku dźwiękowego - "test-audio.wav", znajdującego się w pliku z biblioteką

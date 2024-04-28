@@ -94,7 +94,7 @@ int show_audio()
     }
     for (int i = 0; i < numSamples; i++)
     {
-        double currentSample = audioFile.samples[channel][i];
+        double currentSample = audioFile.samples[channel][i]*10;
         x.push_back(i);
         y.push_back(currentSample);
     }
