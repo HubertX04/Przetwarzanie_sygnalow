@@ -9,6 +9,7 @@ AudioFile<double> audioFile;
 #define MACRO_STRINGIFY(x) STRINGIFY(x)
 #define pi 3.14159265358979323
 
+
 int sin(int a)
 {
     using namespace matplot;
@@ -94,7 +95,7 @@ int show_audio()
     }
     for (int i = 0; i < numSamples; i++)
     {
-        double currentSample = audioFile.samples[channel][i]*10;
+        double currentSample = (audioFile.samples[channel][i]);
         x.push_back(i);
         y.push_back(currentSample);
     }
@@ -106,7 +107,141 @@ int show_audio()
     matplot::ylabel("Y");
     matplot::show();
 
-    return numSamples;
+    return 0;
+}
+
+int DFT()
+{
+    std::vector<double> x;
+    std::vector<double> y;
+
+    audioFile.load ("test-audio.wav");
+    int channel = 0;
+    int numSamples = audioFile.getNumSamplesPerChannel();
+
+    if(numSamples>500)
+    {
+        numSamples=500;
+    }
+
+    double Xr[505]={}, Xi[505]={}; //rzeczywiste + urojone
+
+    for (int i = 0; i < numSamples; i++)
+    {   
+        Xr[i]=0; Xi[i]=0;
+        for(int n=0; n < numSamples; n++)
+        {
+            Xr[i]=(Xr[i]+(audioFile.samples[channel][n]*cos(2 * pi * i * n / numSamples)));
+            Xi[i]=(Xi[i]+(audioFile.samples[channel][n]*sin(2 * pi * i * n / numSamples)));
+        }
+
+        x.push_back(Xr[i]);
+        y.push_back(Xi[i]);
+    }
+
+    matplot::plot(x, y)->line_width(2).color("red");
+    matplot::xlabel("X");
+    matplot::ylabel("Y");
+    matplot::show();
+
+    return 0;
+}
+
+int DFT_IDFT()
+{
+    std::vector<double> x;
+    std::vector<double> y;
+    std::vector<double> x_pom;
+    std::vector<double> y_pom;
+
+    audioFile.load ("test-audio.wav");
+    int channel = 0;
+    int numSamples = audioFile.getNumSamplesPerChannel();
+
+    if(numSamples>500)
+    {
+        numSamples=500;
+    }
+
+    //************************************* DFT *******************************************
+    double Xr[505]={}, Xi[505]={}; //rzeczywiste + urojone
+
+    for (int i = 0; i < numSamples; i++)
+    {   
+        Xr[i]=0; Xi[i]=0;
+        for(int n=0; n < numSamples; n++)
+        {
+            Xr[i]=(Xr[i]+(audioFile.samples[channel][n]*cos(2 * pi * i * n / numSamples)));
+            Xi[i]=(Xi[i]+(audioFile.samples[channel][n]*sin(2 * pi * i * n / numSamples)));
+        }
+
+        x_pom.push_back(Xr[i]);
+        y_pom.push_back(Xi[i]);
+        x.push_back(i);
+        y.push_back(0);
+    }
+    //**************************************************************************************
+    // PRZEKSZTAŁCENIE SYGNAŁU NA DFT, A POTEM W IDFT MA NA CELU POKAZANIA, ŻE POWYŻSZE ALGORYTMY DZIAŁAJĄ
+    // TZN. NA WYJŚCIU DOSTANIEMY TEN SAM SYGNAŁ
+
+    double theta;
+    for (int n = 0; n < numSamples; n++) 
+    {
+        for (int k = 0; k < numSamples; k++) 
+        {
+            theta = (2 * pi * k * n) / numSamples;
+            y[n] = y[n] + Xr[k] * cos(theta) + Xi[k] * sin(theta);
+        }
+        y[n] = y[n] / numSamples;
+    }
+
+    matplot::plot(x, y)->line_width(2).color("red");
+    matplot::xlabel("X");
+    matplot::ylabel("Y");
+    matplot::show();
+
+    return 0;
+}
+
+int IDFT()
+{
+    std::vector<double> x;
+    std::vector<double> y;
+
+    audioFile.load ("test-audio.wav");
+    int channel = 0;
+    int numSamples = audioFile.getNumSamplesPerChannel();
+
+    if(numSamples>500)
+    {
+        numSamples=500;
+    }
+
+    double Xr[505]={}, Xi[505]={}; //rzeczywiste + urojone
+
+    for (int i = 0; i < numSamples; i++)
+    {   
+        Xr[i]=i; Xi[i]=audioFile.samples[channel][i];
+        x.push_back(i);
+        y.push_back(0);
+    }
+    double theta;
+    for (int n = 0; n < numSamples; n++) 
+    {
+        for (int k = 0; k < numSamples; k++) 
+        {
+            theta = (2 * pi * k * n) / numSamples;
+            y[n] = y[n] + Xr[k] * cos(theta) + Xi[k] * sin(theta);
+        }
+        y[n] = y[n] / numSamples;
+    }
+
+    matplot::plot(x, y)->line_width(2).color("red");
+    matplot::xlabel("X");
+    matplot::ylabel("Y");
+    matplot::show();
+
+    return 0;
 }
 
 PYBIND11_MODULE(projekt3, m) {
@@ -116,6 +251,9 @@ PYBIND11_MODULE(projekt3, m) {
     m.def("pilo", &pilo );
     m.def("prostokat", &prostokat);
     m.def("show_audio", &show_audio);
+    m.def("DFT", &DFT );
+    m.def("IDFT", &IDFT );
+    m.def("DFT_IDFT", &DFT_IDFT );
 
 #ifdef VERSION_INFO
     m.attr("__version__") = MACRO_STRINGIFY(VERSION_INFO);
