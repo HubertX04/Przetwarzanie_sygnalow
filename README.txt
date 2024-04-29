@@ -28,3 +28,11 @@ W folderze build/Debug:
     prostokat() -> wykres przebiegu prostokątnego
 }
 -> show_audio() - pokazuje przebieg sygnału pliku dźwiękowego - "test-audio.wav", znajdującego się w pliku z biblioteką
+
+-> DFT(), IDFT(), DFT_IDFT() -> Odwrotne transformacje Fouriera , z pliku dźwiękowego - "test-audio.wav", znajdującego się w pliku z biblioteką
+{
+    DFT() -> Dyretna Transformacja Fouriera
+    IDFT() -> Odwrotna Transformacja Fouriera
+    DFT_IDFT() -> Przekształca plik audio na DFT, a potem na IDFT, dzięki czemu uzyskamy ten sam sygnał, 
+                    jak oryginalny (pokazuje poprawność danych algorytmów)
+}
