@@ -140,7 +140,7 @@ int DFT()
     }
 
     //matplot::plot(x, y)->line_width(2).color("red");
-    matplot::hist(y);
+    matplot::hist(x);
     matplot::xlabel("X");
     matplot::ylabel("Y");
     matplot::show();
@@ -236,7 +236,7 @@ int IDFT()
         y[n] = y[n] / numSamples;
     }
 
-    matplot::hist(y);
+    matplot::hist(x);
     matplot::xlabel("X");
     matplot::ylabel("Y");
     matplot::show();
