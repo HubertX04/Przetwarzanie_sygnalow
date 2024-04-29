@@ -139,11 +139,11 @@ int DFT()
         y.push_back(Xi[i]);
     }
 
-    matplot::plot(x, y)->line_width(2).color("red");
+    //matplot::plot(x, y)->line_width(2).color("red");
+    matplot::hist(y);
     matplot::xlabel("X");
     matplot::ylabel("Y");
     matplot::show();
-
     return 0;
 }
 
@@ -236,7 +236,7 @@ int IDFT()
         y[n] = y[n] / numSamples;
     }
 
-    matplot::plot(x, y)->line_width(2).color("red");
+    matplot::hist(y);
     matplot::xlabel("X");
     matplot::ylabel("Y");
     matplot::show();
