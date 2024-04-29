@@ -244,6 +244,70 @@ int IDFT()
     return 0;
 }
 
+int remove_high_freq()
+{
+    std::vector<double> x;
+    std::vector<double> y;
+
+    audioFile.load ("test-audio.wav");
+    int channel = 0;
+    int numSamples = audioFile.getNumSamplesPerChannel();
+
+    if(numSamples>500)
+    {
+        numSamples=500;
+    }
+
+    //************************************* DFT *******************************************
+    double Xr[505]={}, Xi[505]={}; //rzeczywiste + urojone
+
+    for (int i = 0; i < numSamples; i++)
+    {   
+        Xr[i]=0; Xi[i]=0;
+        for(int n=0; n < numSamples; n++)
+        {
+            Xr[i]=(Xr[i]+(audioFile.samples[channel][n]*cos(2 * pi * i * n / numSamples)));
+            Xi[i]=(Xi[i]+(audioFile.samples[channel][n]*sin(2 * pi * i * n / numSamples)));
+        }
+
+        x.push_back(i);
+        y.push_back(0);
+    }
+    double spectrum=0;
+    for(int i=0; i<numSamples; i++)
+    {
+        if(Xr[i]>=Xi[i])
+        {
+            spectrum = sqrt(Xr[i]*Xr[i]+Xi[i]*Xi[i]);
+            if(spectrum>2.0)
+            {
+                Xr[i]=0;
+                Xi[i]=0;
+            }
+        }
+    }
+
+    //************************************* IDFT ******************************************
+    double theta;
+    for (int n = 0; n < numSamples; n++) 
+    {
+        for (int k = 0; k < numSamples; k++) 
+        {
+            theta = (2 * pi * k * n) / numSamples;
+            y[n] = y[n] + Xr[k] * cos(theta) + Xi[k] * sin(theta);
+        }
+        y[n] = y[n] / numSamples;
+    }
+
+    matplot::plot(x, y)->line_width(2).color("red");
+    matplot::xlabel("X");
+    matplot::ylabel("Y");
+    matplot::show();
+
+    return 0;
+}
+
+
 PYBIND11_MODULE(projekt3, m) {
 
     m.def("sin", &sin);
@@ -254,6 +318,7 @@ PYBIND11_MODULE(projekt3, m) {
     m.def("DFT", &DFT );
     m.def("IDFT", &IDFT );
     m.def("DFT_IDFT", &DFT_IDFT );
+    m.def("remove_high_freq", &remove_high_freq );
 
 #ifdef VERSION_INFO
     m.attr("__version__") = MACRO_STRINGIFY(VERSION_INFO);

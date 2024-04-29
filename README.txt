@@ -36,3 +36,10 @@ W folderze build/Debug:
     DFT_IDFT() -> Przekształca plik audio na DFT, a potem na IDFT, dzięki czemu uzyskamy ten sam sygnał, 
                     jak oryginalny (pokazuje poprawność danych algorytmów)
 }
+
+-> remove_high_freq() -> Usuwanie wysokich częstotliwości za pomocą DFT i IDFT,
+                            pokazuje przebieg  zmodyfikowanego sygnału pliku dźwiękowego - "test-audio.wav", 
+                            znajdującego się w pliku z biblioteką
+
+**************** IMAGE_TESTS ****************
+-> folder IMAGE_TESTS zawiera zrzuty ekranu funkcji remove_high_freq(), tzn.: Wykres oryginalnego przebiegu audio, oraz zmodyfikowanego
