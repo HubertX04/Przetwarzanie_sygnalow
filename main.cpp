@@ -139,8 +139,15 @@ int DFT()
         y.push_back(Xi[i]);
     }
 
-    //matplot::plot(x, y)->line_width(2).color("red");
-    matplot::hist(x);
+    std::vector <double> spectrum;
+    std::vector <double> pom;
+    for(int i=0; i<x.size(); i++)
+    {
+        spectrum.push_back(x[i]*x[i]+y[i]*y[i]);
+        pom.push_back(i);
+    }
+
+    matplot::plot(pom, spectrum)->line_width(2).color("red");
     matplot::xlabel("X");
     matplot::ylabel("Y");
     matplot::show();
@@ -236,7 +243,7 @@ int IDFT()
         y[n] = y[n] / numSamples;
     }
 
-    matplot::hist(x);
+    matplot::plot(x, y)->line_width(2).color("red");
     matplot::xlabel("X");
     matplot::ylabel("Y");
     matplot::show();
@@ -278,8 +285,8 @@ int remove_high_freq()
     {
         if(Xr[i]>=Xi[i])
         {
-            spectrum = sqrt(Xr[i]*Xr[i]+Xi[i]*Xi[i]);
-            if(spectrum>2.0)
+            spectrum = Xr[i]*Xr[i]+Xi[i]*Xi[i];
+            if(spectrum>1.5)
             {
                 Xr[i]=0;
                 Xi[i]=0;
