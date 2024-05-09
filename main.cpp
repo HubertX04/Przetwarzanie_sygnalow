@@ -132,7 +132,7 @@ int DFT()
         for(int n=0; n < numSamples; n++)
         {
             Xr[i]=(Xr[i]+(audioFile.samples[channel][n]*cos(2 * pi * i * n / numSamples)));
-            Xi[i]=(Xi[i]+(audioFile.samples[channel][n]*sin(2 * pi * i * n / numSamples)));
+            Xi[i]=(Xi[i]-(audioFile.samples[channel][n]*sin(2 * pi * i * n / numSamples)));
         }
 
         x.push_back(Xr[i]);
@@ -143,7 +143,7 @@ int DFT()
     std::vector <double> pom;
     for(int i=0; i<x.size(); i++)
     {
-        spectrum.push_back(x[i]*x[i]+y[i]*y[i]);
+        spectrum.push_back((x[i]*x[i]+y[i]*y[i])/numSamples);
         pom.push_back(i);
     }
 
@@ -179,7 +179,7 @@ int DFT_IDFT()
         for(int n=0; n < numSamples; n++)
         {
             Xr[i]=(Xr[i]+(audioFile.samples[channel][n]*cos(2 * pi * i * n / numSamples)));
-            Xi[i]=(Xi[i]+(audioFile.samples[channel][n]*sin(2 * pi * i * n / numSamples)));
+            Xi[i]=(Xi[i]-(audioFile.samples[channel][n]*sin(2 * pi * i * n / numSamples)));
         }
 
         x_pom.push_back(Xr[i]);
@@ -274,7 +274,7 @@ int remove_high_freq()
         for(int n=0; n < numSamples; n++)
         {
             Xr[i]=(Xr[i]+(audioFile.samples[channel][n]*cos(2 * pi * i * n / numSamples)));
-            Xi[i]=(Xi[i]+(audioFile.samples[channel][n]*sin(2 * pi * i * n / numSamples)));
+            Xi[i]=(Xi[i]-(audioFile.samples[channel][n]*sin(2 * pi * i * n / numSamples)));
         }
 
         x.push_back(i);
