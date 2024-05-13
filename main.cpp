@@ -14,7 +14,7 @@ int sin(int a)
 {
     using namespace matplot;
     std::vector<double> x = linspace(0, a * pi);
-    std::vector<double> y=transform(x, [](auto x) { return cos(x); });
+    std::vector<double> y=transform(x, [](auto x) { return sin(x); });
     plot(x, y)->line_width(2).color("red");
     xlabel("X");
     ylabel("Y");
