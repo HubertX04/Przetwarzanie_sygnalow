@@ -14,7 +14,7 @@ int sin(int a)
 {
     using namespace matplot;
     std::vector<double> x = linspace(0, a * pi);
-    std::vector<double> y=transform(x, [](auto x) { return sin(x); });
+    std::vector<double> y=transform(x, [](auto x) { return cos(x); });
     plot(x, y)->line_width(2).color("red");
     xlabel("X");
     ylabel("Y");
@@ -34,12 +34,13 @@ int cos(int a)
     return 0;
 }
 
-int pilo(int a)
+int pilo(double a)
 {
+    a = 1/a;
     using namespace matplot;
     std::vector<double> x;
     std::vector<double> y;
-    for(int i=0; i<5; i++)
+    for(int i=0; i<20; i++)
     {
         x.push_back(a*i);
         y.push_back(-1);
@@ -54,9 +55,10 @@ int pilo(int a)
     return 0;
 }
 
-int prostokat(int a)
+int prostokat(double a)
 {
-   using namespace matplot;
+    a = 1/a;
+    using namespace matplot;
     std::vector<double> x;
     std::vector<double> y;
     for(int i=0; i<10; i+=2)
