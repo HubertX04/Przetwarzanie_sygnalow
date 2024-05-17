@@ -145,7 +145,7 @@ int DFT()
     std::vector <double> pom;
     for(int i=0; i<x.size(); i++)
     {
-        spectrum.push_back((x[i]*x[i]+y[i]*y[i])/numSamples);
+        spectrum.push_back((x[i]*x[i]+y[i]*y[i]));
         pom.push_back(i);
     }
 
