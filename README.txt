@@ -1,5 +1,6 @@
 *******************************************************
-Projekt 3 - Hubert Kowalski, Igor Kowalczyk
+Projekt 3 - Hubert Kowalski
+Napisane bibloteki do Pythona, potrzebne do wizualizacji sygnałów
 *******************************************************
 
 Potrzebne Programy:
